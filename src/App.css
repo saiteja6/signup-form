@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.SignupForm {
+  margin-top: 90px;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
+}

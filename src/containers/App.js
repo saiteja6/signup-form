@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Signup from './Signup'
+import Signup from './SignupContainer'
 import { HomePage } from './HomePage'
 
 

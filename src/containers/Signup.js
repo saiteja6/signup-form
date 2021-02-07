@@ -22,10 +22,11 @@ export default class Signup extends Component {
     render() {
         return (
             <div>
+                <h1 className="title-signup">Sign Up</h1>   
                 <form 
                     className="SignupForm"
                     onSubmit={this.handleSubmit}>
-                    <label> Name
+                    <label> Name:
                     <input 
                         type="text"
                         placeholder="Name.."
@@ -34,7 +35,8 @@ export default class Signup extends Component {
                         onChange={this.handleChange}
                     />
                     </label>
-                    <label> E-mail
+                    <br />
+                    <label> E-mail:
                     <input 
                         type="text"
                         placeholder="E-mail.."
@@ -43,7 +45,8 @@ export default class Signup extends Component {
                         onChange={this.handleChange}
                     />
                     </label>
-                    <label> Password
+                    <br />
+                    <label> Password:
                     <input 
                         type="password"
                         placeholder="Password"
@@ -52,9 +55,9 @@ export default class Signup extends Component {
                         onChange={this.handleChange}
                     />
                     </label>
+                    <br />
                     <button>SignUp</button>
                 </form>
-                {/* <h1>Hello, World!</h1>    */}
                 <h5>{this.state.name}</h5>
                 <h5>{this.state.email}</h5>         
                 <h5>{this.state.password}</h5>         
